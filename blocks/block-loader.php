@@ -1,0 +1,21 @@
+<?php
+/*
+|--------------------------------------------------------------------------
+| Collect all the block classes.
+|--------------------------------------------------------------------------
+*/
+require_once('favicon/index.php');
+require_once('siteheader/index.php');
+require_once('sitefooter/index.php');
+require_once('button/index.php');
+require_once('pageheader/index.php');
+require_once('text/index.php');
+require_once('texttwocol/index.php');
+require_once('hero/index.php');
+require_once('cta/index.php');
+require_once('zig/index.php');
+require_once('zag/index.php');
+require_once('threeup/index.php');
+require_once('iconlist/index.php');
+require_once('spacer/index.php');
+require_once('divider/index.php');

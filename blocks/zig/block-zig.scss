@@ -1,0 +1,66 @@
+@import '../../global/mixins';
+@import '../../global/branding';
+
+.block-zig-layout {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.block-zig-body-layout {
+	padding: 0 0 0 1rem;
+}
+
+.block-zig-body {
+	font-family: $font-body;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	padding: 2rem 1rem 2rem 0;
+
+	a {
+		font-weight: bold;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $font-title;
+		line-height: 1.6rem;
+	}
+}
+
+.block-zig-image {
+	background-position: 50% 50%;
+	background-size: cover;
+	min-height: 300px;
+	width: 100%;
+}
+
+@media (min-width: $large) {
+
+	.block-zig-layout {
+		flex-direction: row;
+	}
+
+	.block-zig-body-layout {
+		align-items: center;
+		display: flex;
+		justify-content: flex-end;
+		width: 50%;
+	}
+
+	.block-zig-body {
+		max-width: (($container-width - 32) / 2);
+		padding: 4rem 3rem 4rem 0;
+	}
+
+	.block-zig-image-layout {
+		width: 50%;
+	}
+
+	.block-zig-image {
+		height: 100%;
+	}
+}

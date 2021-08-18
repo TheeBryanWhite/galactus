@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".block-siteheader-menutoggle").click(function(e){e.preventDefault(),"true"==jQuery(this).attr("aria-expanded")?jQuery(this).attr("aria-expanded","false"):jQuery(this).attr("aria-expanded","true"),jQuery(".block-siteheader-nav").toggleClass("block-siteheader-nav-hidden")})});

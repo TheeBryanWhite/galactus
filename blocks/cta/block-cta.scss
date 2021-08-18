@@ -1,0 +1,40 @@
+@import '../../global/branding';
+
+.block-cta {
+	background-color: $color-primary;
+	border-bottom: solid 1px $color-light;
+	border-top: solid 1px $color-light;
+	color: $color-dark;
+	font-family: $font-title;
+	padding: 2rem 0;
+}
+
+.block-cta-layout {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.block-cta-message {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+	margin: 0 0 1rem;
+}
+
+@media (min-width: $large) {
+
+	.block-cta-layout {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: left;
+	}
+
+	.block-cta-message {
+		margin: 0;
+		width: 75%;
+	}
+}

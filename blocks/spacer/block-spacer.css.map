@@ -1,0 +1,1 @@
+{"version":3,"sources":["spacer/block-spacer.css"],"names":[],"mappings":"AAAA;EACE,eAAe;AACjB","file":"block-spacer.css","sourcesContent":[".block-spacer {\n  padding: 2rem 0;\n}"]}

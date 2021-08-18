@@ -1,0 +1,52 @@
+.block-iconlist {
+  padding: 2rem 0;
+}
+
+.block-iconlist-title {
+  font-family: "Helvetica", sans-serif;
+  line-height: 2.4rem;
+  margin: 2rem 0;
+}
+
+.block-iconlist-list {
+  margin: 0;
+  padding: 0;
+}
+
+.block-iconlist-image {
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.block-iconlist-item {
+  list-style: none;
+  margin: 0.5rem 0;
+  min-height: 64px;
+  overflow: auto;
+  padding: 0 0 0 5rem;
+  position: relative;
+}
+.block-iconlist-item h1,.block-iconlist-item h2,.block-iconlist-item h3,.block-iconlist-item h4,.block-iconlist-item h5,.block-iconlist-item h6 {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6rem;
+}
+.block-iconlist-item p {
+  font-family: "Georgia", serif;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+@media (min-width: rem(1000)) {
+  .block-iconlist-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .block-iconlist-item {
+    width: calc(48% - 80px);
+  }
+}
+/*# sourceMappingURL=block-iconlist.css.map */

@@ -1,0 +1,28 @@
+/*!
+Theme Name: ECC Base
+Author: East Coast Catalyst
+Author URI: http://www.eastcoastcatalyst.com
+Description: This is a base theme for ECC projects. It is meant to be extended for client sites.
+Version: 9.1.0
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Import global project styles.
+|--------------------------------------------------------------------------
+*/
+@import 'global/**/*.scss';
+
+/*
+|--------------------------------------------------------------------------
+| Register block styles.
+|--------------------------------------------------------------------------
+*/
+@import 'blocks/**/*.scss';
+
+/*
+|--------------------------------------------------------------------------
+| Register template styles.
+|--------------------------------------------------------------------------
+*/
+@import 'templates/**/*.scss';

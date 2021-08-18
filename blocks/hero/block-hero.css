@@ -1,0 +1,74 @@
+.block-hero {
+  background-color: #ccc;
+  background-image: url("/wp-content/themes/galactus/blocks/hero/block-hero-landscape-dark.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #666;
+  font-family: "Helvetica", sans-serif;
+  padding: 7rem 0 5rem;
+  position: relative;
+  text-align: center;
+  /*background:
+  linear-gradient(rgba(80, 200, 232, 0), rgba(80, 200, 232, 1)),
+  linear-gradient(-90deg, rgb(0, 200, 150), rgb(200, 200, 232));*/
+  /*background:
+  	url('/wp-content/themes/galactus/blocks/hero/block-hero-bg.svg'),
+  	url('/wp-content/themes/galactus/blocks/hero/block-hero-bg.svg'),
+  	url('/wp-content/themes/galactus/blocks/hero/block-hero-bg.svg'),
+  	linear-gradient(darken($color-primary, 10%), lighten($color-primary, 10%));
+  background-position:
+  	center center;
+  background-repeat:
+  	repeat,
+  	repeat,
+  	repeat,
+  	no-repeat;
+  background-size:
+  	120%,
+  	60%,
+  	30%,
+  	cover;*/
+}
+.block-hero .container {
+  position: relative;
+}
+
+.block-hero-overlay {
+  background: #ccc;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.block-hero-image {
+  margin: -1.5rem 0 2rem;
+}
+.block-hero-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.block-hero-title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 0 0 2rem;
+}
+
+.block-hero-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: -1.5rem 0 2rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: rem(1000)) {
+  .block-hero-overlay {
+    display: none;
+  }
+}
+/*# sourceMappingURL=block-hero.css.map */

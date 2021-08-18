@@ -1,0 +1,56 @@
+.block-zag-layout {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.block-zag-body-layout {
+  padding: 0 1rem 0 0;
+}
+
+.block-zag-body {
+  font-family: "Georgia", serif;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  padding: 2rem 0 2rem 1rem;
+}
+.block-zag-body a {
+  font-weight: bold;
+}
+.block-zag-body h1,.block-zag-body h2,.block-zag-body h3,.block-zag-body h4,.block-zag-body h5,.block-zag-body h6 {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6rem;
+}
+
+.block-zag-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 62.5rem) {
+  .block-zag-layout {
+    flex-direction: row-reverse;
+  }
+
+  .block-zag-body-layout {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+  .block-zag-body {
+    max-width: 87.5rem-32/2;
+    padding: 4rem 0 4rem 3rem;
+  }
+
+  .block-zag-image-layout {
+    width: 50%;
+  }
+
+  .block-zag-image {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=block-zag.css.map */

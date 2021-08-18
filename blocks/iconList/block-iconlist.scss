@@ -1,0 +1,62 @@
+@import '../../global/branding';
+
+.block-iconlist {
+	padding: 2rem 0;
+}
+
+.block-iconlist-title {
+	font-family: $font-title;
+	line-height: 2.4rem;
+	margin: 2rem 0;
+}
+
+.block-iconlist-list {
+	margin: 0;
+	padding: 0;
+}
+
+.block-iconlist-image {
+	height: 64px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 64px;
+}
+
+.block-iconlist-item {
+	list-style: none;
+	margin: 0.5rem 0;
+	min-height: 64px;
+	overflow: auto;
+	padding: 0 0 0 80px;
+	position: relative;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $font-title;
+		line-height: 1.6rem;
+	}
+
+	p {
+		font-family: $font-body;
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+	}
+}
+
+@media (min-width: $large) {
+
+	.block-iconlist-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.block-iconlist-item {
+		width: calc(48% - 80px);
+	}
+}

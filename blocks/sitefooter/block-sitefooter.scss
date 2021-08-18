@@ -1,0 +1,90 @@
+@import '../../global/branding';
+
+.block-sitefooter-prefooter {
+	background-color: darken($color-primary, 35%);
+	color: $color-light;
+	font-family: $font-title;
+	font-size: 0.9rem;
+	font-weight: 300;
+	line-height: 1.9rem;
+	padding: 0 0 2rem;
+
+	.menu {
+		list-style: none;
+		padding: 0;
+
+		a {
+			color: $color-light;
+
+			&:hover {
+				color: $color-accent;
+			}
+		}
+	}
+}
+
+.block-sitefooter-prefooter-title {
+	border-bottom: solid 1px darken($color-primary, 25%);
+	font-weight: 300;
+	margin: 0;
+	padding: 2rem 0 0.75rem;
+}
+
+.block-sitefooter-subfooter {
+	background-color: darken($color-primary, 35%);
+	border-top: solid 1px darken($color-primary, 25%);
+	color: $color-light;
+	font-family: $font-title;
+	font-size: 0.9rem;
+	padding: 1rem 0;
+
+	a {
+		color: $color-light;
+		margin: 0 1rem 0 0;
+
+		&:hover {
+			color: $color-accent;
+		}
+	}
+}
+
+.block-sitefooter-subfooter-copyright {
+	float: left;
+	margin: 0.25rem 1rem 0.25rem 0;
+}
+
+.block-sitefooter-subfooter-utilitylinks {
+	float: left;
+	margin: 0.25rem 1rem 0.25rem 0;
+}
+
+@media (min-width: $medium) {
+
+	.block-sitefooter-prefooter-widget-second {
+		float: left;
+		margin-right: 32px;
+		width: calc(50% - 16px);
+	}
+
+	.block-sitefooter-prefooter-widget-third {
+		float: left;
+		width: calc(50% - 16px);
+	}
+}
+
+@media (min-width: $large) {
+
+	.block-sitefooter-prefooter-widget-first {
+		float: left;
+		margin-right: 32px;
+		width: calc(50% - 16px);
+	}
+
+	.block-sitefooter-prefooter-widget-second {
+		width: calc(25% - 32px);
+	}
+
+	.block-sitefooter-prefooter-widget-third {
+		width: calc(25% - 16px);
+	}
+}

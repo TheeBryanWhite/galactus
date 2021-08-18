@@ -1,0 +1,15 @@
+@import '../../global/branding';
+
+.block-pageheader {
+	background-color: $color-primary;
+	color: $color-dark;
+	font-family: $font-title;
+	padding: 1rem 0 0.75rem;
+}
+
+.block-pageheader-title {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+	margin: 0;
+}

@@ -1,0 +1,52 @@
+.block-texttwocol {
+  background-color: #ccc;
+  color: #666;
+  font-family: "Georgia", serif;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  overflow: auto;
+}
+.block-texttwocol h1,.block-texttwocol h2,.block-texttwocol h3,.block-texttwocol h4,.block-texttwocol h5,.block-texttwocol h6 {
+  font-family: "Helvetica", sans-serif;
+  line-height: 2.4rem;
+}
+.block-texttwocol blockquote {
+  border-left: solid 0.5rem #ccc;
+  padding-left: 1rem;
+}
+.block-texttwocol blockquote p {
+  margin: 0;
+}
+.block-texttwocol table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+}
+.block-texttwocol thead {
+  background-color: #ccc;
+}
+.block-texttwocol td,.block-texttwocol th {
+  border-bottom: 1px solid #ccc;
+  border-width: 0 0 1px;
+  padding: 0.5em 1em;
+}
+
+.block-texttwocol-title {
+  text-align: center;
+}
+
+@media (min-width: rem(1000)) {
+  .block-texttwocol-one {
+    float: left;
+    margin-right: 2rem;
+    width: calc(50% - 16px);
+  }
+
+  .block-texttwocol-two {
+    float: left;
+    width: calc(50% - 16px);
+  }
+}
+/*# sourceMappingURL=block-texttwocol.css.map */

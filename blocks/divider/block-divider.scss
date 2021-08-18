@@ -1,0 +1,9 @@
+@import '../../global/branding';
+
+.block-divider {
+	border-bottom: solid 1px $color-grey;
+
+	&.block-divider-hasmargins {
+		margin: 2rem 0;
+	}
+}

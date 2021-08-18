@@ -1,0 +1,66 @@
+@import '../../global/branding';
+
+.block-texttwocol {
+	background-color: $color-light;
+	color: $color-dark;
+	font-family: $font-body;
+	font-size: 1.2rem;
+	line-height: 1.9rem;
+	overflow: auto;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $font-title;
+		line-height: 2.4rem;
+	}
+
+	blockquote {
+		border-left: solid 0.5rem $color-primary;
+		padding-left: 1rem;
+
+		p {
+			margin: 0;
+		}
+	}
+
+	table {
+		border: 1px solid $color-primary;
+		border-collapse: collapse;
+		border-spacing: 0;
+		text-align: left;
+		width: 100%;
+	}
+
+	thead {
+		background-color: $color-primary;
+	}
+
+	th,
+	td {
+		border-bottom: 1px solid $color-primary;
+		border-width: 0 0 1px;
+		padding: 0.5em 1em;
+	}
+}
+
+.block-texttwocol-title {
+	text-align: center;
+}
+
+@media (min-width: $large) {
+
+	.block-texttwocol-one {
+		float: left;
+		margin-right: 32px;
+		width: calc(50% - 16px);
+	}
+
+	.block-texttwocol-two {
+		float: left;
+		width: calc(50% - 16px);
+	}
+}

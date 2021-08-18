@@ -1,0 +1,1 @@
+{"version":3,"sources":["divider/block-divider.css"],"names":[],"mappings":"AAAA;EACE,6BAA6B;AAC/B;AACA;EACE,cAAc;AAChB","file":"block-divider.css","sourcesContent":[".block-divider {\n  border-bottom: solid 1px #ccc;\n}\n.block-divider.block-divider-hasmargins {\n  margin: 2rem 0;\n}"]}

@@ -1,0 +1,38 @@
+.block-cta {
+  background-color: #ccc;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  color: #666;
+  font-family: "Helvetica", sans-serif;
+  padding: 2rem 0;
+}
+
+.block-cta-layout {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.block-cta-message {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: rem(1000)) {
+  .block-cta-layout {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .block-cta-message {
+    margin: 0;
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=block-cta.css.map */

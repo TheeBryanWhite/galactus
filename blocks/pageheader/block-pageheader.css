@@ -1,0 +1,14 @@
+.block-pageheader {
+  background-color: #ccc;
+  color: #666;
+  font-family: "Helvetica", sans-serif;
+  padding: 1rem 0 0.75rem;
+}
+
+.block-pageheader-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin: 0;
+}
+/*# sourceMappingURL=block-pageheader.css.map */

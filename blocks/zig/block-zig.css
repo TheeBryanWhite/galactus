@@ -1,0 +1,56 @@
+.block-zig-layout {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.block-zig-body-layout {
+  padding: 0 0 0 1rem;
+}
+
+.block-zig-body {
+  font-family: "Georgia", serif;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  padding: 2rem 1rem 2rem 0;
+}
+.block-zig-body a {
+  font-weight: bold;
+}
+.block-zig-body h1,.block-zig-body h2,.block-zig-body h3,.block-zig-body h4,.block-zig-body h5,.block-zig-body h6 {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6rem;
+}
+
+.block-zig-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 62.5rem) {
+  .block-zig-layout {
+    flex-direction: row;
+  }
+
+  .block-zig-body-layout {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  .block-zig-body {
+    max-width: 87.5rem-32/2;
+    padding: 4rem 3rem 4rem 0;
+  }
+
+  .block-zig-image-layout {
+    width: 50%;
+  }
+
+  .block-zig-image {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=block-zig.css.map */
