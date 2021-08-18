@@ -11,7 +11,7 @@ This theme is a constantly evolving base theme. Duplicate it at fixed points in 
 ## Site setup checklist
 
 1. Install and activate **Classic Editor** and **Advanced Custom Fields Pro** plugins.
-2. Replace all references in the ECC Base theme code to the new client name.
+2. Replace all references in the Galactus theme code to the new client name.
 	1. `Galactus`
 	2. `galactus`
 3. Generate new favicons with the associated Sketch file.
